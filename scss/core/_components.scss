@@ -1,0 +1,30 @@
+.--sc-cl-1 {
+    background: var(--cl-1);
+}
+.--sc-cl-b {
+    background: #040404;
+}
+.--sc-cl-2 {
+    background: var(--cl-2);
+}
+
+.--pd {
+    padding-top: var(--pd-top);
+    padding-bottom: var(--pd-bottom);
+}
+.--pd-chef {
+    padding-top: var(--pd-chef);
+    padding-bottom: var(--pd-chef-bt);
+}
+.--pd-no-top {
+    padding-bottom: var(--pd-bottom);
+}
+.--pd-no-bottom {
+    padding-top: var(--pd-bottom);
+}
+.--pd-item {
+    padding-top: var(--pd-top);
+}
+.__color--primar {
+    color: var(--cl-yellow);
+}

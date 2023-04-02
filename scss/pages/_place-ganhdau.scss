@@ -1,0 +1,43 @@
+.scdetail {
+    &__middle {
+        grid-column: 3/11;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+}
+@include xxs {
+    .scdetail {
+        &__middle {
+            grid-column: 2/12;
+            .scmain__middle.button {
+                .bot {
+                    display: block;
+                    .small-box {
+                        .text {
+                            .des-ol {
+                                font-size: 24px;
+                                padding-bottom: 10px;
+                            }
+                            .p-small-grey {
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+            .booking__box-2 {
+                .box-img {
+                    display: none;
+                }
+                .box-reserve {
+                    padding: 20px 20px 20px 20px;
+                    .form {
+                        padding: 0px 0px 0px 0px;
+                    }
+                }
+            }
+        }
+    }
+}

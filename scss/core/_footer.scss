@@ -1,0 +1,135 @@
+.footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contacts {
+        h3 {
+            padding-bottom: 24px;
+        }
+        > * {
+            display: flex;
+            padding-bottom: 16px;
+            align-items: center;
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .text {
+            text-align: center;
+            max-width: 390px;
+            padding: 24px 0px 31px 0px;
+        }
+    }
+    .calendar {
+        text-align: right;
+        h3 {
+            padding-bottom: 24px;
+        }
+        &__week {
+            p {
+                padding-bottom: 16px;
+            }
+        }
+    }
+    .link {
+        a {
+            img {
+                transition: var(--tran);
+                border-radius: 50%;
+            }
+        }
+        a {
+            img:hover {
+                background: var(--cl-yellow);
+                border-radius: 50%;
+            }
+        }
+        a:not(:last-child) {
+            padding-right: 24px;
+        }
+    }
+}
+@include xxs {
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .container {
+            display: block;
+        }
+        .info {
+            padding: 35px 0px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            .text {
+                text-align: justify;
+                max-width: none !important;
+            }
+        }
+        .calendar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .calendar__week {
+                p {
+                    display: flex;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}
+@include sm {
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .container {
+            display: block;
+        }
+        .info {
+            padding: 35px 0px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            .text {
+                text-align: justify;
+                max-width: none !important;
+            }
+        }
+        .calendar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .calendar__week {
+                p {
+                    display: flex;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}
+
+.last-thing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+@include xxs {
+    .last-thing {
+        height: 100px;
+        p {
+            font-size: 14px;
+            text-align: center;
+            padding: 10px 30px 10px 30px;
+        }
+    }
+}

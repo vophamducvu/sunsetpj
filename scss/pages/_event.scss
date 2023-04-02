@@ -1,0 +1,24 @@
+.scevent__main {
+    .wrap {
+        padding-bottom: 64px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        .box {
+            margin-right: 0px;
+        }
+    }
+    .button_more {
+        margin: 0 auto;
+    }
+}
+@include xxs {
+    .scevent__main {
+        .wrap {
+            display: block;
+            .box:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

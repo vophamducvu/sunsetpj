@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sunset Sorrento</title>
+    <link rel="icon" type="favicon" href="img/favicon.png">
+
+    <!--meta facebook-->
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="stylesheet" href="dest/style.min.css">
+    <link rel="stylesheet" href="dest/fonts.css">
+    <style>
+        .loading {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            z-index: 9999;
+            background: white;
+            opacity: 1;
+            visibility: visible;
+            transition: 0.5s;
+        }
+
+        .loading.active {
+            opacity: 0;
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loading">
+    </div>
+    <header class="header --sc-cl-1">
+        <div class="container-fluid">
+            <div class="header__logo">
+                <img srcset="img/logo-sunset.png 2x" alt="img">
+            </div>
+            <ul class="header__menu">
+                <li><a class="active" href="index.html">TRANG CHỦ</a></li>
+                <li><a href="about.html">VỀ CHÚNG TÔI</a></li>
+                <li><a href="service.html">DỊCH VỤ</a></li>
+                <li><a href="event.html">SỰ KIỆN</a></li>
+                <div class="header__menu-lang">
+                    <div class="current">
+                        <li><a href="#">THỰC ĐƠN<img srcset="img/arrow-white.png 2x" alt="">
+                            </a>
+                        <li>
+                    </div>
+                    <ul class="select">
+                        <li><a href="menu.html" class="lang__option">Món Á
+                            </a></li>
+                        <li><a href="menu.html" class="lang__option">Món Âu
+                            </a></li>
+                        <li><a href="menu.html" class="lang__option">Tráng Miệng
+                            </a></li>
+                    </ul>
+                </div>
+                <li><a href="place.html">ĐIỂM ĐẾN</a></li>
+                <li><a href="gallery.html">THƯ VIỆN</a></li>
+                <li><a href="contact.html">LIÊN HỆ</a></li>
+            </ul>
+            <div class="header__right">
+                <div class="header__right-lang">
+                    <div class="header__lang-current">
+                        <span>EN</span>
+                    </div>
+                    <ul class="header__lang-select">
+                        <li><a href="#" class="lang__option">VN
+                            </a></li>
+                        <li><a href="#" class="lang__option">CN
+                            </a></li>
+                        <li><a href="#" class="lang__option">JP
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="header__right-button button_datban">
+                    <a href="contact.html">ĐẶT BÀN</a>
+                </div>
+                <div class="header__right-mobile"><span></span></div>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li><a href="about.html">VỀ CHÚNG TÔI</a></li>
+            <li><a href="service.html">DỊCH VỤ</a></li>
+            <li><a href="event.html">SỰ KIỆN</a></li>
+            <li><a href="menu.html">THỰC ĐƠN</a>
+            <li><a href="menu.html">MÓN Á</a></li>
+            <li><a href="menu.html">MÓN Âu</a></li>
+            <li><a href="menu.html">TRÁNG MIỆNG</a></li>
+            <li><a href="place.html">ĐIỂM ĐẾN</a></li>
+            <li><a href="gallery.html">THƯ VIỆN</a></li>
+            <li><a href="contact.html">LIÊN HỆ</a></li>
+            <li><a href="contact.html">ĐẶT BÀN</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="scslider">
+            <div class="scslider__wrapper">
+                <div class="scslider__wrapper-item">
+                    <div class="slider__img">
+                        <img src="img/slider2.jpg" alt="img">
+                    </div>
+                    <div class="slider__des">
+                        <img src="img/logo.png" alt="">
+                        <h1>Taste Royale Cuisine</h1>
+                        <h2 class="h2-slide">FEEL THE AROMA</h2>
+                        <div class="button_more">
+                            <a href="menu.html">KHÁM PHÁ THÊM</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="scslider__wrapper-item">
+                    <div class="slider__img">
+                        <img src="img/slider1.jpg" alt="img">
+                    </div>
+                    <div class="slider__des">
+                        <img src="img/logo.png" alt="">
+                        <h1>Taste Royale Cuisine</h1>
+                        <h2 class="h2-slide">FEEL THE AROMA</h2>
+                        <div class="button_more">
+                            <a href="menu.html">KHÁM PHÁ THÊM</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="scslider__wrapper-item">
+                    <div class="slider__img">
+                        <img src="img/slider3.jpg" alt="img">
+                    </div>
+                    <div class="slider__des">
+                        <img src="img/logo.png" alt="">
+                        <h1>Taste Royale Cuisine</h1>
+                        <h2 class="h2-slide">FEEL THE AROMA</h2>
+                        <div class="button_more">
+                            <a href="menu.html">KHÁM PHÁ THÊM</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scslider__arrow-left">
+                <span><img srcset="img/arrow-left.png 2x" alt="img"></span>
+            </div>
+            <div class="scslider__arrow-right">
+                <span><img srcset="img/arrow-left.png 2x" alt="img"></span>
+            </div>
+        </section>
+        <section class="scintro --sc-cl-1 --pd">
+            <div class="container">
+                <div class="scintro__item">
+                    <div class="img">
+                        <img srcset="img/intro1.png 2x" alt="img">
+                    </div>
+                    <div class="des">
+                        <h3 class="h3">Fresh Products</h3>
+                        <p class="des-mr">For each dish, the growth of every element & the selection</p>
+                        <a href="#" class="two-square">KHÁM PHÁ THÊM</a>
+                    </div>
+                </div>
+                <div class="scintro__item">
+                    <div class="img">
+                        <img srcset="img/intro2.png 2x" alt="img">
+                    </div>
+                    <div class="des">
+                        <h3 class="h3">Skilled Chefs</h3>
+                        <p class="des-mr">For each dish, the growth of every element & the selection</p>
+                        <a href="#" class="two-square">KHÁM PHÁ THÊM</a>
+                    </div>
+                </div>
+                <div class="scintro__item">
+                    <div class="img">
+                        <img srcset="img/intro3.png 2x" alt="img">
+                    </div>
+                    <div class="des">
+                        <h3 class="h3">Best Bar</h3>
+                        <p class="des-mr">For each dish, the growth of every element & the selection</p>
+                        <a href="#" class="two-square">KHÁM PHÁ THÊM</a>
+                    </div>
+                </div>
+                <div class="scintro__item">
+                    <div class="img">
+                        <img srcset="img/intro4.png 2x" alt="img">
+                    </div>
+                    <div class="des">
+                        <h3 class="h3">Healthy food</h3>
+                        <p class="des-mr">For each dish, the growth of every element & the selection</p>
+                        <a href="#" class="two-square">KHÁM PHÁ THÊM</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="scservices --sc-cl-2 --pd">
+            <div class="container">
+                <img class="img" src="img/services.jpg" alt="img">
+                <div class="des">
+                    <div class="textbox-middle">
+                        <div class="tittle">
+                            <p>Our Services</p>
+                        </div>
+                        <div class="tittle_main">
+                            <h2>Between Heaven & Earth</h2>
+                            <div class="line --right" style="--w:142px">
+                                <div class="square"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p class="des-mr">The character and philosophy of our type of cuisine, which follows the
+                            ancestral
+                            technique of using different types of
+                            firewood, fire, charcoal and the scented trace of the smoke, inherently results in a
+                            limitation
+                            on the number of diners
+                            that we can accommodate without sacrificing our essence.</p>
+                        <p class="text-italic-white">Whisper to us about your feelings, and we will prepare what you
+                            need now.</p>
+                        <div class="button_more">
+                            <a href="about.html">KHÁM PHÁ THÊM</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="scmenu --sc-cl-1 --pd">
+            <div class="border">
+                <img class="left" src="img/colum.png" alt="img">
+                <img class="right" src="img/colum.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="textbox-middle">
+                    <div class="tittle">
+                        <p>From Our Menu</p>
+                    </div>
+                    <div class="tittle_main">
+                        <h2>Try Our Special Offers</h2>
+                        <div class="line --left --right center">
+                            <div class="square"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-wrapper">
+                    <div class="scmenu__list">
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Raw Scallops from Erquy</h3>
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Candied Jerusalem artichokes, truffle</p>
+                        </div>
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Viennese Veal Cutlet</h3>
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Ricotta and spinach gnocchi, Caccio de Pepe</p>
+                        </div>
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Tender Octopus and Fennel</h3>
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Citrus, wild rocket condiment</p>
+                        </div>
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Corrèze Pan-seared Veal Liver</h3>
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Citrus, wild rocket condiment</p>
+                        </div>
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Sea Bass Ceviche</h3>
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Avocado, butternut, lime</p>
+                        </div>
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Cod Filet Cooked on One Side</h3>
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Chorizo, chickpea espuma, pequillos</p>
+                        </div>
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Thinly Sliced Brittany Artichokes</h3>
+
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Citrus, wild rocket condiment</p>
+                        </div>
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Grilled Veal Filet Mignon</h3>
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Pumpkin, endives with hazelnuts</p>
+                        </div>
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Celeriac and Truffle Ravioli</h3>
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Roasted langoustine, consommé</p>
+                        </div>
+                        <div class="scmenu__list-items">
+                            <div class="list__items-nameprice">
+                                <h3 class="h3">Grilled Black Angus Sirloin Steak</h3>
+                                <h3 class="h3-yellow">1.000.000đ</h3>
+                            </div>
+                            <p class="p-small">Coin de rue’ potatoes, Béarnaise sauce</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="button_more">
+                    <a href="menu.html">KHÁM PHÁ THÊM</a>
+                </div>
+            </div>
+        </section>
+        <section class="scvideo">
+            <div class="scvideo__img">
+                <img src="img/wine.jpg" alt="img">
+            </div>
+            <div class="scvideo__playvideobtn">
+                <img class="button" srcset="img/play-video.png 2x" alt="img" data-video-src="dz6xe0xXqYE">
+            </div>
+        </section>
+        <section class="scevents --sc-cl-2 --pd">
+            <div class="container">
+                <div class="textbox-middle">
+                    <div class="tittle">
+                        <p>Events</p>
+                    </div>
+                    <div class="tittle_main">
+                        <h2>Be First Who Read News</h2>
+                    </div>
+                    <div class="line --left --right center">
+                        <div class="square"></div>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new1.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new2.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new3.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new4.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new5.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new6.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new7.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new8.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new9.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="scbrandslide --sc-cl-2 --pd-no-top">
+            <a href=""><img src="img/slide2-1.png" alt="img"></a>
+            <a href=""><img src="img/slide2-2.png" alt="img"></a>
+            <a href=""><img src="img/slide2-3.png" alt="img"></a>
+            <a href=""><img src="img/slide2-4.png" alt="img"></a>
+        </section>
+        <section class="scbe --sc-cl-b --pd">
+            <div class="container">
+                <div class="textbox-middle">
+                    <div class="shrimp">
+                        <img src="img/shrimp.png" alt="img">
+                    </div>
+                    <div class="tittle">
+                        <p>Thông điệp</p>
+                    </div>
+                    <div class="tittle_main">
+                        <h2>Be First Who Read News</h2>
+                        <div class="line --right" style="--w:142px">
+                            <div class="square"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="info">
+                        <div class="intro">
+                            <p class="text-italic-white">“Because a restaurant’s story is never complete, there is
+                                always
+                                something new and wonderful
+                                to discover. An evening
+                                spent at Benoit is like boarding a golden ship through a Parisian night.”</p>
+                        </div>
+                        <div class="staff">
+                            <div class="name">
+                                <h3 class="h3">Dominicana Rodrigez</h3>
+                                <p class="p-small-yellow">Clients of Restaurants</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="intro">
+                            <p class="text-italic-white">“Cristiano Ronaldo dos Santos Aveiro is a Portuguese
+                                professional footballer who plays as a forward and captains for
+                                Saudi Pro League club Al Nassr and the Portugal national team. He have a special ”</p>
+                        </div>
+                        <div class="staff">
+                            <div class="name">
+                                <h3 class="h3">Cristiano Ronaldo</h3>
+                                <p class="p-small-yellow">Clients of Restaurants</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="intro">
+                            <p class="text-italic-white">“Lionel Andrés Messi, also known as Leo Messi, is an Argentine
+                                professional footballer who plays as a forward for Ligue 1
+                                club Paris Saint-Germain and captains the national football team. Argentina.”</p>
+                        </div>
+                        <div class="staff">
+                            <div class="name">
+                                <h3 class="h3">Leo Messi</h3>
+                                <p class="p-small-yellow">Clients of Restaurants</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span class="arrow-left"><img srcset="img/arrow-left.png 2x" alt="img"></span>
+                    <span class="arrow-right"><img srcset="img/arrow-left.png 2x" alt="img"></span>
+                </div>
+            </div>
+            <div class="picture">
+                <img srcset="img/be.png 2x" alt="img">
+            </div>
+        </section>
+        <section class="scplace --sc-cl-2 --pd">
+            <div class="container">
+                <div class="scplace__box">
+                    <div class="picture">
+                        <a href="place.html"><img src="img/place1.jpg" alt="img"></a>
+                    </div>
+                    <div class="name">
+                        <a href="place.html" class="h3">Grand World Phú Quốc</a>
+                        <p class="p-small-yellow">Assitant Chef</p>
+                    </div>
+                </div>
+                <div class="scplace__box">
+                    <div class="picture">
+                        <a href="place.html"><img src="img/place2.jpg" alt="img"></a>
+                    </div>
+                    <div class="name">
+                        <a href="place.html" class="h3">Hòn Thơm</a>
+                        <p class="p-small-yellow">Assitant Chef</p>
+                    </div>
+                </div>
+                <div class="scplace__box">
+                    <div class="picture">
+                        <a href="place2.html"><img src="img/place3.jpg" alt="img"></a>
+                    </div>
+                    <div class="name">
+                        <a href="place2.html" class="h3">Gành Dầu</a>
+                        <p class="p-small-yellow">Assitant Chef</p>
+                    </div>
+                </div>
+                <div class="scplace__box">
+                    <div class="picture">
+                        <a href="place.html"><img src="img/place4.jpg" alt="img"></a>
+                    </div>
+                    <div class="name">
+                        <a href="place.html" class="h3">Quần đảo An Thới</a>
+                        <p class="p-small-yellow">Assitant Chef</p>
+                    </div>
+                </div>
+                <div class="scplace__box">
+                    <div class="picture">
+                        <a href="place.html"><img src="img/place5.jpg" alt="img"></a>
+                    </div>
+                    <div class="name">
+                        <a href="place.html" class="h3">Bãi Dài</a>
+                        <p class="p-small-yellow">Assitant Chef</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="scbooking --sc-cl-2 --pd-no-top">
+            <div class="container">
+                <div class="booking__box">
+                    <div class="box-img">
+                        <a href=""><img srcset="img/booking.png 2x" alt="img"></a>
+                    </div>
+                    <div class="box-reserve">
+                        <h3 class="title-reserve">Make a Reserve</h3>
+                        <div class="form">
+                            <div class="forminput">
+                                <input type="text" placeholder="Họ tên*">
+                            </div>
+                            <div class="forminput">
+                                <input type="tel" placeholder="Điện thoại*">
+                            </div>
+                            <div class="forminput formselect">
+                                <select name="format" id="format" class="selected">
+                                    <option value="2">2 Người</option>
+                                    <option value="3">3 Người</option>
+                                    <option value="4">4 Người</option>
+                                    <option value="5">5 Người</option>
+                                </select>
+                            </div>
+                            <div class="forminput formdate">
+                                <input type="date" value="2023-07-22" min="2023-01-01">
+                            </div>
+                            <div class="forminput formselect">
+                                <select name="format" id="format" class="selected">
+                                    <option value="2">19:00</option>
+                                    <option value="3">20:00</option>
+                                    <option value="4">22:00</option>
+                                    <option value="5">23:00</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="button-reverse">
+                            <a href="service.html">ĐẶT BÀN</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking__facts">
+                    <div class="textbox-middle">
+                        <div class="tittle">
+                            <p>Some Facts</p>
+                        </div>
+                        <div class="tittle_main">
+                            <h2>Enhancing Your Feelings</h2>
+                            <div class="line --right" style="--w:142px">
+                                <div class="square"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p class="des-mr">From signature delights such as beef tartare and the best mashed potato in
+                            Paris,
+                            all the way
+                            to unique specialities
+                            such as thinly sliced Brittany artichokes with truffles.</p>
+                    </div>
+                    <div class="two-facts">
+                        <div class="facts">
+                            <div class="facts__wrap">
+                                <p class="facts-number-yellow" data-target="250">000</p>
+                                <p class="h3-yellow">+</p>
+                            </div>
+                            <p class="text-italic-white">Clients Every Day</p>
+                        </div>
+                        <div class="facts">
+                            <div class="facts__wrap">
+                                <p class="facts-number-yellow" data-target="180">000</p>
+                                <p class="h3-yellow">+</p>
+                            </div>
+                            <p class="text-italic-white">Great Moments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="scblog --sc-cl-2 --pd-no-top">
+            <div class="container">
+                <div class="textbox-middle">
+                    <div class="tittle">
+                        <p>Our Blog</p>
+                    </div>
+                    <div class="tittle_main">
+                        <h2>Be First Who Read News</h2>
+                    </div>
+                    <div class="line --left --right center">
+                        <div class="square"></div>
+                    </div>
+                </div>
+                <div class="circle">
+                    <img srcset="img/circle.png 2x" alt="img">
+                </div>
+                <div class="wrap">
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new1.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new2.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new3.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new4.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new5.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new6.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new7.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new8.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <a href="event.html"><img src="img/new9.jpg" alt="img"></a>
+                        </div>
+                        <div class="bottom">
+                            <div class="title text-italic-yellow">
+                                <p>March 27, 2021</p>
+                                <div class="square --small"></div>
+                                <p>Restaurants</p>
+                            </div>
+                            <div class="name">
+                                <a href="event.html">
+                                    <h3>Elegant Dessert: 10 Tips How to Make It at Home</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button_more">
+                    <a href="service.html">KHÁM PHÁ THÊM</a>
+                </div>
+        </section>
+    </main>
+    <footer class="footer --sc-cl-1 --pd">
+        <div class="container">
+            <div class="contacts">
+                <h3 class="h3">Contacts</h3>
+                <div class="address">
+                    <img srcset="img/contacts-1.png 2x" alt="img">
+                    <p class="des-mr">5 Rue Dalou, 75015 Paris</p>
+                </div>
+                <div class="phone">
+                    <img srcset="img/contacts-2.png 2x" alt="img">
+                    <p class="des-mr">+33 156 78 89 56</p>
+                </div>
+                <div class="last">
+                    <img srcset="img/contacts-3.png 2x" alt="img">
+                    <p class="des-mr">reservation</p>
+                </div>
+            </div>
+            <div class="info">
+                <div class="logo">
+                    <img srcset="img/logo-sunset.png 2x" alt="img">
+                </div>
+                <div class="text">
+                    <p class="text-italic-white">Whisper to us about your feelings, and we will prepare what you need
+                        now.
+                    </p>
+                </div>
+                <div class="link">
+                    <a href="#"><img src="img/footer.svg" alt="img"></a>
+                    <a href="#"><img src="img/footer2.svg" alt="img"></a>
+                    <a href="#"><img src="img/footer3.svg" alt="img"></a>
+                    <a href="#"><img src="img/footer4.svg" alt="img"></a>
+                    <a href="#"><img src="img/footer5.svg" alt="img"></a>
+                </div>
+            </div>
+            <div class="calendar">
+                <h3 class="h3">Giờ mở cửa</h3>
+                <div class="calendar__week">
+                    <p class="des-mr"><span class="__color--primar">Thứ 2 – Thứ 6: </span> 7:00 giờ – 18:00 giờ</p>
+                    <p class="des-mr"><span class="__color--primar">Thứ 7: </span> 7:00 giờ – 18:00 giờ</p>
+                    <p class="des-mr"><span class="__color--primar">Chủ nhật: </span> 8:00 giờ – 18:00 giờ</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="btt-button">
+        <img srcset="img/Backtotop.png 2x" alt="img">
+    </div>
+    <div class="popupvideo ">
+        <div class="popupvideo__inner">
+            <div class="popupvideo__inner-iframe">
+                <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div class="popupvideo__inner-close">
+                    <img srcset="img/close-button.png 2x" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last-thing --sc-cl-2">
+        <p class="des-mr">Copyright © 2022 Sunset Sorrento Restaurant. All Rights Reserved.</p>
+    </div>
+
+    <script src="dest/jsmain.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

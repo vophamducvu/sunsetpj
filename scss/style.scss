@@ -1,0 +1,26 @@
+@import "core/reset";
+@import "core/variables";
+@import "core/mixins";
+
+@import "core/layouts";
+@import "core/elements";
+@import "core/components";
+@import "core/libs";
+
+@import "core/loading";
+
+@import "core/header";
+@import "core/nav";
+@import "core/footer";
+
+@import "pages/home";
+@import "pages/about";
+@import "pages/service";
+@import "pages/service2";
+@import "pages/event";
+@import "pages/event2";
+@import "pages/place";
+@import "pages/place-ganhdau";
+@import "pages/menu";
+@import "pages/gallery";
+@import "pages/contact";
